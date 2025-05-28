@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <style>
+        div{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column ;
+        }
+        form{
+            border: 2px solid aqua;
+            height:400px;
+            width: 400px;
+            display: flex;
+            gap: 10px;
+            flex-direction: column ;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px black;
+             padding: 20px;
+        }
+        input{
+            padding: 10px;
+            /* border: none; */
+            border-radius: 10px;
+
+        }
+        label{
+            font-weight: 600;
+        }
+        button{
+         width: 60px;
+         color: black;
+         background-color: aqua;
+         
+
+
+        }
+        #btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+    
+    <div>
+        <h1>Registration</h1>
+            
+        <p>To Get access of my site please register</p>
+        <form action="">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter username">
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter email">
+            
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter password">
+            <div id="btn">
+
+                <button>Register</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
